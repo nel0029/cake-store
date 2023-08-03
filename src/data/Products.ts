@@ -3,66 +3,66 @@
 export const dummyProducts = [
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Famerican-heritage-chocolate-vdx5hPQhXFk-unsplash%20(1).jpg?alt=media&token=9217cf31-18f7-4666-be72-4a780cf4d65e",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069272/cake-shop/annie-spratt-_4iLsr5p-dY-unsplash_1_duwtyl.jpg",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fannie-spratt-_4iLsr5p-dY-unsplash%20(1).jpg?alt=media&token=9c1cf56a-271c-4940-9f81-2c4d175ebaf0",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069271/cake-shop/uliana-kopanytsia-2FA0VJzwc0g-unsplash_1_dhzvaq.jpg",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fanthony-espinosa-6iqpLKqeaE0-unsplash%20(1).jpg?alt=media&token=92e0ea2f-ff3c-464c-b9c5-310835fc674f",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069272/cake-shop/heather-barnes-xatIo9Ksfb0-unsplash_1_x9zsuz.jpg",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fdeva-williamson-ntfGWVbBiO0-unsplash%20(1).jpg?alt=media&token=3284e9dd-1a08-4258-9ec0-7a56dae8c483",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069271/cake-shop/diliara-garifullina-6pSB_XprQp0-unsplash_1_qrhy3o.jpg",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fdiana-light--4ccYKuvc5A-unsplash%20(1).jpg?alt=media&token=ae21a4ea-a2d8-439e-bad5-6b61fe255d31",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069271/cake-shop/junior-reis--72q2VOq90Q-unsplash_1_miidxl.jpg",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fdiliara-garifullina-6pSB_XprQp0-unsplash%20(1).jpg?alt=media&token=888196d3-b33c-4f62-924b-af12dc5553b4",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069269/cake-shop/velizar-ivanov-rXB9YjOQX8I-unsplash_1_vs6pl3.jpg",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Ffood-photographer-jennifer-pallian-gRZYR210m0U-unsplash%20(1).jpg?alt=media&token=e756b60c-92a8-474f-be1c-442e548a9d00",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069270/cake-shop/heather-barnes-_TN1m5R1pFI-unsplash_1_jx4e70.jpg",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fheather-barnes-_TN1m5R1pFI-unsplash%20(1).jpg?alt=media&token=bbb38363-bbd6-4f8c-9f42-8292c2cee9e7",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069269/cake-shop/ieva-kisunaite-aNxlLSec5Dk-unsplash_1_fqzrpp.jpg",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fheather-barnes-xatIo9Ksfb0-unsplash%20(1).jpg?alt=media&token=ca7ea5c8-f453-45ef-907a-48134dfaaca0",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069269/cake-shop/food-photographer-jennifer-pallian-gRZYR210m0U-unsplash_1_l2xbka.jpg",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fieva-kisunaite-aNxlLSec5Dk-unsplash%20(1).jpg?alt=media&token=8c3a1753-6128-4920-94d1-447e5806b57d",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069269/cake-shop/diana-light--4ccYKuvc5A-unsplash_1_xrpt3u.jpg",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fjunior-reis--72q2VOq90Q-unsplash%20(1).jpg?alt=media&token=c41fa12c-b7ae-4b41-b48b-6a7b960b8aac",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069268/cake-shop/maahid-photos-qK3z5iKRB2s-unsplash_1_rfgigl.jpg",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fkaouther-djouada-hcEDfkiVmMI-unsplash%20(1).jpg?alt=media&token=9f810908-b5c0-4328-a6ce-25b8cde7f75c",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069266/cake-shop/deva-williamson-ntfGWVbBiO0-unsplash_1_lmezql.jpg",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fmaahid-photos-qK3z5iKRB2s-unsplash%20(1).jpg?alt=media&token=bbc56e2b-7e80-4aef-8eea-c6c9096af8d1",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069267/cake-shop/american-heritage-chocolate-vdx5hPQhXFk-unsplash_1_osqd7z.jpg",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fswapnil-dwivedi-Nl8Oa6ZuNcA-unsplash%20(1).jpg?alt=media&token=3b9d3799-20a0-4f81-9405-e500bd95a0d8",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069266/cake-shop/anthony-espinosa-6iqpLKqeaE0-unsplash_1_r2smlo.jpg",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fuliana-kopanytsia-2FA0VJzwc0g-unsplash%20(1).jpg?alt=media&token=ef5209b7-bdf4-4162-8546-14eea0d3c513",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069266/cake-shop/swapnil-dwivedi-Nl8Oa6ZuNcA-unsplash_1_ihgpob.jpg",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fvelizar-ivanov-rXB9YjOQX8I-unsplash%20(1).jpg?alt=media&token=f2f90361-ffff-430b-8757-45fe6fa419c3",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069266/cake-shop/kaouther-djouada-hcEDfkiVmMI-unsplash_1_rnyxvk.jpg",
   },
 ];

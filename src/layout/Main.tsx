@@ -62,7 +62,7 @@ const Main: React.FC<MainProps> = () => {
               loading="lazy"
               alt="hero"
               className=" w-full object-cover"
-              src="https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fdavid-holifield-kPxsqUGneXQ-unsplash%20(1).jpg?alt=media&token=96006d18-2732-4132-a088-99e264fb2c34"
+              src="https://res.cloudinary.com/dedny49m6/image/upload/v1691069265/cake-shop/david-holifield-kPxsqUGneXQ-unsplash_1_qdxfk9.jpg"
             />
           </div>
           <div className="absolute z-30 left-0 right-0 bottom-0 flex flex-col items-center w-full ">
