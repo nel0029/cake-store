@@ -27,6 +27,7 @@ const Gallery: React.FC<GalleryProps> = ({ headerHeight }) => {
               key={index}
             >
               <LazyLoadImage
+                alt={`${product.image} ${index + 1}`}
                 loading="lazy"
                 style={{ transform: "width, height" }}
                 className="w-full h-full hover:scale-125 ease-in-out duration-300 object-cover"

@@ -60,6 +60,7 @@ const Main: React.FC<MainProps> = () => {
           <div className="z-10 absolute top-0 bottom-0 w-full flex justify-end bg-darkBrown">
             <img
               loading="lazy"
+              alt="hero"
               className=" w-full object-cover"
               src="https://firebasestorage.googleapis.com/v0/b/uploadimage-287c2.appspot.com/o/cakeshop%2Fdavid-holifield-kPxsqUGneXQ-unsplash.jpg?alt=media&token=da9b0514-c585-4916-8fc1-5b5712726cd2"
             />

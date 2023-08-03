@@ -74,6 +74,7 @@ const Header: React.FC<HeaderProps> = ({
     >
       <div className="font-poppins text-2xl flex flex-row gap-x-2 items-center">
         <img
+          alt="logo"
           className="w-[40px] rounded-full aspect-square object-cover"
           src="/logo-cake-shop-jpg.jpg"
         />
