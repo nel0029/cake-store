@@ -2,7 +2,6 @@
 
 import { useEffect, useState, useRef } from "react";
 import Header from "./layout/Header";
-import axios from "axios";
 import Main from "./layout/Main";
 import Services from "./layout/Services";
 import Gallery from "./layout/Gallery";

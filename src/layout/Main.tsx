@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 
 import KeyboardDoubleArrowDownRoundedIcon from "@mui/icons-material/KeyboardDoubleArrowDownRounded";
@@ -9,7 +9,7 @@ interface MainProps {
   headerHeight: number;
 }
 
-const Main: React.FC<MainProps> = ({ headerHeight }) => {
+const Main: React.FC<MainProps> = () => {
   const transitionValues = {
     duration: 0.8,
     repeat: Infinity,

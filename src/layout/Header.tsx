@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 
 import LocalMallRoundedIcon from "@mui/icons-material/LocalMallRounded";
@@ -10,7 +10,6 @@ import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
 import ImageRoundedIcon from "@mui/icons-material/ImageRounded";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
-import CakeRoundedIcon from "@mui/icons-material/CakeRounded";
 
 interface HeaderProps {
   pos: number;
