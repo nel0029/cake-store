@@ -1,35 +1,51 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+/** @format */
+
+import { useEffect, useState, useRef } from "react";
+import Header from "./layout/Header";
+import axios from "axios";
+import Main from "./layout/Main";
+import Services from "./layout/Services";
+import Gallery from "./layout/Gallery";
+import Contacts from "./layout/Contacts";
+import Reviews from "./layout/Reviews";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  useEffect(() => {
+    if (isMenuOpen === true) {
+      document.body.style.overflowY = "hidden";
+    } else {
+      document.body.style.overflowY = "auto";
+    }
+  }, [isMenuOpen]);
+
+  const [pos, setPos] = useState<number>(0);
+  const height: number = window.innerHeight;
+  const headerRef = useRef(document.createElement("div"));
+  const headerHeight = headerRef.current.offsetHeight;
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setPos(window.scrollY);
+    });
+  }, [pos]);
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="w-full flex flex-col bg-darkBrown">
+      <Header
+        isMenuOpen={isMenuOpen}
+        setIsMenuOpen={setIsMenuOpen}
+        headerRef={headerRef}
+        pos={pos}
+        height={height}
+      />
+      <Main headerHeight={headerHeight} />
+      <Services headerHeight={headerHeight} />
+      <Gallery headerHeight={headerHeight} />
+      <Reviews headerHeight={headerHeight} />
+      <Contacts headerHeight={headerHeight} />
+    </div>
+  );
 }
 
-export default App
+export default App;
