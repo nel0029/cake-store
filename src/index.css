@@ -14,31 +14,16 @@
 
 .marquee {
   position: relative;
-  width: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
 }
 
 .track {
   position: absolute;
-  display: flex;
-  flex-direction: row;
   white-space: nowrap;
-  will-change: transform;
-  animation: marquee 8s linear infinite;
-  width: 100%;
 }
 .track:hover {
   animation-play-state: paused;
-}
-
-@keyframes marquee {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
 }
 
 .text-shadow {

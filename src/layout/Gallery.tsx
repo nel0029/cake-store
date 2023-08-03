@@ -2,6 +2,7 @@
 
 import React from "react";
 import { dummyProducts } from "../data/Products";
+import { motion } from "framer-motion";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 interface GalleryProps {
@@ -9,6 +10,14 @@ interface GalleryProps {
 }
 
 const Gallery: React.FC<GalleryProps> = ({ headerHeight }) => {
+  const marquee = document.getElementById("track");
+
+  const scrollWidth = marquee?.scrollWidth;
+  const offSetWidth = marquee?.offsetWidth;
+  let qoutientWidth;
+  if (scrollWidth && offSetWidth) {
+    qoutientWidth = Math.round((scrollWidth / offSetWidth) * 100);
+  }
   return (
     <div className="h-screen bg-primary border-transparent flex flex-col gap-y-8 ">
       <div
@@ -19,8 +28,23 @@ const Gallery: React.FC<GalleryProps> = ({ headerHeight }) => {
           Gallery
         </div>
       </div>
-      <div className="w-full flex-grow flex marquee flex-col justify-center">
-        <div className="flex-grow gap-x-2 lg:gap-x-[5rem] track items-center ">
+      <div className="marquee w-full flex-grow flex flex-col justify-center relative px-2">
+        <motion.div
+          id="track"
+          animate={{
+            x: ["0%", `${qoutientWidth && qoutientWidth * -1}%`],
+          }}
+          whileHover={{ animationPlayState: "paused" }}
+          transition={{
+            x: {
+              duration: 60,
+              repeat: Infinity,
+              ease: "linear",
+              repeatType: "loop",
+            },
+          }}
+          className="track flex flex-row flex-nowrap flex-grow gap-x-2 lg:gap-x-[5rem] items-center"
+        >
           {dummyProducts.map((product: any, index: number) => (
             <div
               className="min-w-[200px] lg:min-w-[260px] overflow-hidden aspect-2/3 rounded-xl border"
@@ -35,7 +59,7 @@ const Gallery: React.FC<GalleryProps> = ({ headerHeight }) => {
               />
             </div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </div>
   );
