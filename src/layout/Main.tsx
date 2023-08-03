@@ -61,7 +61,7 @@ const Main: React.FC<MainProps> = () => {
             <img
               loading="lazy"
               alt="hero"
-              className=" w-full object-cover"
+              className="w-full object-cover"
               src="https://res.cloudinary.com/dedny49m6/image/upload/v1691069265/cake-shop/david-holifield-kPxsqUGneXQ-unsplash_1_qdxfk9.jpg"
             />
           </div>
