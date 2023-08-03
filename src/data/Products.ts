@@ -3,26 +3,66 @@
 export const dummyProducts = [
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/uploadimage-287c2.appspot.com/o/cakeshop%2Fdiana-light--4ccYKuvc5A-unsplash.jpg?alt=media&token=ed5b2847-3631-4450-9226-446bd2d18308",
+      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Famerican-heritage-chocolate-vdx5hPQhXFk-unsplash%20(1).jpg?alt=media&token=9217cf31-18f7-4666-be72-4a780cf4d65e",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/uploadimage-287c2.appspot.com/o/cakeshop%2Fdiliara-garifullina-6pSB_XprQp0-unsplash.jpg?alt=media&token=6146b8ec-9064-4b24-8500-c01f6d766d20",
+      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fannie-spratt-_4iLsr5p-dY-unsplash%20(1).jpg?alt=media&token=9c1cf56a-271c-4940-9f81-2c4d175ebaf0",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/uploadimage-287c2.appspot.com/o/cakeshop%2Fdeva-williamson-ntfGWVbBiO0-unsplash.jpg?alt=media&token=2f17f296-7606-496e-bde3-b671c5ca66d1",
+      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fanthony-espinosa-6iqpLKqeaE0-unsplash%20(1).jpg?alt=media&token=92e0ea2f-ff3c-464c-b9c5-310835fc674f",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/uploadimage-287c2.appspot.com/o/cakeshop%2Ffood-photographer-jennifer-pallian-gRZYR210m0U-unsplash.jpg?alt=media&token=6b3a2889-13f5-474c-a740-43b9bcb7f93a",
+      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fdeva-williamson-ntfGWVbBiO0-unsplash%20(1).jpg?alt=media&token=3284e9dd-1a08-4258-9ec0-7a56dae8c483",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/uploadimage-287c2.appspot.com/o/cakeshop%2Fieva-kisunaite-aNxlLSec5Dk-unsplash.jpg?alt=media&token=a5fb6751-78d5-4f32-8e51-49899ed4b8bf",
+      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fdiana-light--4ccYKuvc5A-unsplash%20(1).jpg?alt=media&token=ae21a4ea-a2d8-439e-bad5-6b61fe255d31",
   },
   {
     image:
-      "https://firebasestorage.googleapis.com/v0/b/uploadimage-287c2.appspot.com/o/cakeshop%2Fheather-barnes-_TN1m5R1pFI-unsplash.jpg?alt=media&token=10c25e1b-bfd1-43f9-80f5-af4e41a526f5",
+      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fdiliara-garifullina-6pSB_XprQp0-unsplash%20(1).jpg?alt=media&token=888196d3-b33c-4f62-924b-af12dc5553b4",
+  },
+  {
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Ffood-photographer-jennifer-pallian-gRZYR210m0U-unsplash%20(1).jpg?alt=media&token=e756b60c-92a8-474f-be1c-442e548a9d00",
+  },
+  {
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fheather-barnes-_TN1m5R1pFI-unsplash%20(1).jpg?alt=media&token=bbb38363-bbd6-4f8c-9f42-8292c2cee9e7",
+  },
+  {
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fheather-barnes-xatIo9Ksfb0-unsplash%20(1).jpg?alt=media&token=ca7ea5c8-f453-45ef-907a-48134dfaaca0",
+  },
+  {
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fieva-kisunaite-aNxlLSec5Dk-unsplash%20(1).jpg?alt=media&token=8c3a1753-6128-4920-94d1-447e5806b57d",
+  },
+  {
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fjunior-reis--72q2VOq90Q-unsplash%20(1).jpg?alt=media&token=c41fa12c-b7ae-4b41-b48b-6a7b960b8aac",
+  },
+  {
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fkaouther-djouada-hcEDfkiVmMI-unsplash%20(1).jpg?alt=media&token=9f810908-b5c0-4328-a6ce-25b8cde7f75c",
+  },
+  {
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fmaahid-photos-qK3z5iKRB2s-unsplash%20(1).jpg?alt=media&token=bbc56e2b-7e80-4aef-8eea-c6c9096af8d1",
+  },
+  {
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fswapnil-dwivedi-Nl8Oa6ZuNcA-unsplash%20(1).jpg?alt=media&token=3b9d3799-20a0-4f81-9405-e500bd95a0d8",
+  },
+  {
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fuliana-kopanytsia-2FA0VJzwc0g-unsplash%20(1).jpg?alt=media&token=ef5209b7-bdf4-4162-8546-14eea0d3c513",
+  },
+  {
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/files-b4812.appspot.com/o/cake-store%2Fvelizar-ivanov-rXB9YjOQX8I-unsplash%20(1).jpg?alt=media&token=f2f90361-ffff-430b-8757-45fe6fa419c3",
   },
 ];
