@@ -11,15 +11,6 @@ interface GalleryProps {
 }
 
 const Gallery: React.FC<GalleryProps> = ({ headerHeight }) => {
-  const marquee = document.getElementById("track");
-
-  const scrollWidth = marquee?.scrollWidth;
-  const offSetWidth = marquee?.offsetWidth;
-  let qoutientWidth;
-  if (scrollWidth && offSetWidth) {
-    qoutientWidth = Math.round((scrollWidth / offSetWidth) * 100);
-  }
-
   const forLargeScreen = [];
 
   for (let i = 0; i < dummyProducts.length; i += 3) {
