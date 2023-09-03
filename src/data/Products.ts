@@ -3,66 +3,62 @@
 export const dummyProducts = [
   {
     image:
-      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069272/cake-shop/annie-spratt-_4iLsr5p-dY-unsplash_1_duwtyl.jpg",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1693727080/cake-maker/junior-reis--72q2VOq90Q-unsplash_1_rykx1i.webp",
   },
   {
     image:
-      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069271/cake-shop/uliana-kopanytsia-2FA0VJzwc0g-unsplash_1_dhzvaq.jpg",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1693727078/cake-maker/kaouther-djouada-hcEDfkiVmMI-unsplash_1_kuz3oh.webp",
   },
   {
     image:
-      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069272/cake-shop/heather-barnes-xatIo9Ksfb0-unsplash_1_x9zsuz.jpg",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1693727078/cake-maker/deva-williamson-ntfGWVbBiO0-unsplash_1_iiueo6.webp",
   },
   {
     image:
-      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069271/cake-shop/diliara-garifullina-6pSB_XprQp0-unsplash_1_qrhy3o.jpg",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1693727077/cake-maker/heather-barnes-_TN1m5R1pFI-unsplash_1_ppz5kj.webp",
   },
   {
     image:
-      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069271/cake-shop/junior-reis--72q2VOq90Q-unsplash_1_miidxl.jpg",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1693727077/cake-maker/food-photographer-jennifer-pallian-gRZYR210m0U-unsplash_1_mvcysb.webp",
   },
   {
     image:
-      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069269/cake-shop/velizar-ivanov-rXB9YjOQX8I-unsplash_1_vs6pl3.jpg",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1693727077/cake-maker/anthony-espinosa-6iqpLKqeaE0-unsplash_1_zc90e6.webp",
   },
   {
     image:
-      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069270/cake-shop/heather-barnes-_TN1m5R1pFI-unsplash_1_jx4e70.jpg",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1693727077/cake-maker/diana-light--4ccYKuvc5A-unsplash_1_djncye.webp",
   },
   {
     image:
-      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069269/cake-shop/ieva-kisunaite-aNxlLSec5Dk-unsplash_1_fqzrpp.jpg",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1693727076/cake-maker/uliana-kopanytsia-2FA0VJzwc0g-unsplash_1_aulob2.webp",
   },
   {
     image:
-      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069269/cake-shop/food-photographer-jennifer-pallian-gRZYR210m0U-unsplash_1_l2xbka.jpg",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1693727075/cake-maker/annie-spratt-_4iLsr5p-dY-unsplash_1_c5qrjm.webp",
   },
   {
     image:
-      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069269/cake-shop/diana-light--4ccYKuvc5A-unsplash_1_xrpt3u.jpg",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1693727075/cake-maker/ieva-kisunaite-aNxlLSec5Dk-unsplash_1_oypja8.webp",
   },
   {
     image:
-      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069268/cake-shop/maahid-photos-qK3z5iKRB2s-unsplash_1_rfgigl.jpg",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1693727075/cake-maker/heather-barnes-xatIo9Ksfb0-unsplash_1_jlbub5.webp",
   },
   {
     image:
-      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069266/cake-shop/deva-williamson-ntfGWVbBiO0-unsplash_1_lmezql.jpg",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1693727075/cake-maker/maahid-photos-qK3z5iKRB2s-unsplash_1_et2fov.webp",
   },
   {
     image:
-      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069267/cake-shop/american-heritage-chocolate-vdx5hPQhXFk-unsplash_1_osqd7z.jpg",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1693727074/cake-maker/diliara-garifullina-6pSB_XprQp0-unsplash_1_v2ksct.webp",
   },
   {
     image:
-      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069266/cake-shop/anthony-espinosa-6iqpLKqeaE0-unsplash_1_r2smlo.jpg",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1693727074/cake-maker/american-heritage-chocolate-vdx5hPQhXFk-unsplash_1_kpbele.webp",
   },
   {
     image:
-      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069266/cake-shop/swapnil-dwivedi-Nl8Oa6ZuNcA-unsplash_1_ihgpob.jpg",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dedny49m6/image/upload/v1691069266/cake-shop/kaouther-djouada-hcEDfkiVmMI-unsplash_1_rnyxvk.jpg",
+      "https://res.cloudinary.com/dedny49m6/image/upload/v1693727073/cake-maker/velizar-ivanov-rXB9YjOQX8I-unsplash_1_zzmfqg.webp",
   },
 ];

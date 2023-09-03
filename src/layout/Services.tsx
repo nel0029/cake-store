@@ -11,8 +11,26 @@ interface ServicesProps {
 }
 
 const Services: React.FC<ServicesProps> = ({ headerHeight }) => {
+  const services = [
+    {
+      name: "Customized cake",
+      desc: "We make customized cake according to your desire",
+      icon: <CakeRoundedIcon style={{ fontSize: "40px" }} />,
+    },
+
+    {
+      name: "Bundle Package",
+      desc: "We offer best promo package that suit to your budget",
+      icon: <CardGiftcardRoundedIcon style={{ fontSize: "40px" }} />,
+    },
+    {
+      name: "Fast Delivery",
+      desc: "We offer a fast delivery for customer residing inside Quezon Province.",
+      icon: <DeliveryDiningRoundedIcon style={{ fontSize: "40px" }} />,
+    },
+  ];
   return (
-    <div className="h-screen max-h-auto bg-darkBrown flex flex-col gap-y-8">
+    <div className="h-screen bg-darkBrown flex flex-col gap-y-2">
       <div
         style={{ marginTop: headerHeight + 2 }}
         className=" w-full flex flex-row items-center justify-center"
@@ -21,61 +39,51 @@ const Services: React.FC<ServicesProps> = ({ headerHeight }) => {
           We Offer
         </div>
       </div>
-      <div className="flex-grow w-full p-4 flex flex-row gap-4 justify-around flex-wrap">
-        <motion.div
-          initial={{ scale: 0 }}
-          whileInView={{ scale: 1 }}
-          exit={{ scale: 1 }}
-          className="w-[150px] lg:w-[300px] flex flex-col items-center justify-center gap-y-4 rounded-xl bg-white bg-opacity-20 backdrop-blur-[5px] aspect-square p-2"
-        >
-          <div className="flex justify-center items-center">
-            <div className="text-darkBrown p-2 lg:p-4 border rounded-full bg-white">
-              <CakeRoundedIcon style={{ fontSize: "40px" }} />
+      <div className="flex-grow w-full p-4 hidden xl:flex flex-row gap-4 justify-around flex-wrap">
+        {services.map((service: any, index: number) => (
+          <motion.div
+            key={index}
+            initial={{ scale: 0 }}
+            whileInView={{ scale: 1 }}
+            exit={{ scale: 1 }}
+            className="w-[150px] lg:w-[300px] flex flex-col items-center justify-center gap-y-4 rounded-xl bg-white bg-opacity-20 backdrop-blur-[5px] aspect-square p-2"
+          >
+            <div className="flex justify-center items-center">
+              <div className="text-darkBrown p-2 lg:p-4 border rounded-full bg-white">
+                {service.icon}
+              </div>
             </div>
-          </div>
-          <div className="text-center text-white font-bold uppercase text-xl">
-            Customized Cake
-          </div>
-          <div className="hidden lg:block text-xs lg:text-base text-center text-white">
-            We make customized cake according to your desire
-          </div>
-        </motion.div>
-        <motion.div
-          initial={{ scale: 0 }}
-          whileInView={{ scale: 1 }}
-          exit={{ scale: 1 }}
-          className="w-[150px] lg:w-[300px] flex flex-col items-center justify-center gap-y-4 rounded-xl bg-white bg-opacity-20 backdrop-blur-[5px] aspect-square p-2"
-        >
-          <div className="flex justify-center items-center">
-            <div className="text-darkBrown p-2 lg:p-4 border rounded-full bg-white">
-              <CardGiftcardRoundedIcon style={{ fontSize: "40px" }} />
+            <div className="text-center text-white font-bold uppercase text-xl">
+              {service.name}
             </div>
-          </div>
-          <div className="text-center text-white font-bold uppercase text-xl">
-            Bundle Package
-          </div>
-          <div className="hidden lg:block text-xs lg:text-base text-center text-white">
-            We offer best promo package that suit to your budget
-          </div>
-        </motion.div>
-        <motion.div
-          initial={{ scale: 0 }}
-          whileInView={{ scale: 1 }}
-          exit={{ scale: 1 }}
-          className="w-[150px] lg:w-[300px] flex flex-col items-center justify-center gap-y-4 rounded-xl bg-white bg-opacity-20 backdrop-blur-[5px] aspect-square p-2"
-        >
-          <div className="flex justify-center items-center">
-            <div className="text-darkBrown p-2 lg:p-4 border rounded-full bg-white">
-              <DeliveryDiningRoundedIcon style={{ fontSize: "40px" }} />
+            <div className="hidden lg:block text-xs lg:text-base text-center text-white">
+              {service.desc}
             </div>
-          </div>
-          <div className="text-center text-white font-bold uppercase text-xl">
-            Fast Delivery
-          </div>
-          <div className="hidden lg:block text-xs lg:text-base text-center text-white">
-            We offer a fast delivery for customer residing inside metro manila.
-          </div>
-        </motion.div>
+          </motion.div>
+        ))}
+      </div>
+      <div className="flex-1 w-full p-4 flex xl:hidden flex-col gap-4 ">
+        {services.map((service: any, index: number) => (
+          <motion.div
+            key={index}
+            initial={{ scale: 0 }}
+            whileInView={{ scale: 1 }}
+            exit={{ scale: 1 }}
+            className="flex-1 w-full flex flex-row gap-x-2 rounded-xl bg-white bg-opacity-20 backdrop-blur-[5px] p-2"
+          >
+            <div className="flex justify-center items-center">
+              <div className="text-darkBrown p-2 lg:p-4 border rounded-full bg-white">
+                {service.icon}
+              </div>
+            </div>
+            <div className="flex-1 flex flex-col justify-center">
+              <div className="text-left text-2xl text-white font-bold uppercase">
+                {service.name}
+              </div>
+              <div className="text-left text-white">{service.desc}</div>
+            </div>
+          </motion.div>
+        ))}
       </div>
     </div>
   );
