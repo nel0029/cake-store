@@ -49,7 +49,7 @@ const Reviews: React.FC<ReviewsProps> = ({ headerHeight }) => {
             </div>
           ))}
         </div>
-        <div className="w-full flex xl:hidden flex-col gap-y-2 px-2">
+        <div className="w-full flex xl:hidden flex-col gap-y-4 px-2">
           {reviews.map((review: any, index: number) => (
             <div
               key={index}

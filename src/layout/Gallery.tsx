@@ -19,7 +19,7 @@ const Gallery: React.FC<GalleryProps> = ({ headerHeight }) => {
   }
 
   return (
-    <div className="h-screen bg-primary border-transparent flex flex-col gap-y-4 ">
+    <div className="h-screen bg-primary border-transparent flex flex-col gap-y-8">
       <div
         style={{ marginTop: headerHeight + 2 }}
         className="w-full flex flex-row items-center justify-center"
