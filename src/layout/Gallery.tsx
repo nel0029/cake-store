@@ -66,9 +66,8 @@ const Gallery: React.FC<GalleryProps> = ({ headerHeight }) => {
                     key={index}
                     className="aspect-8/7 w-full h-full overflow-hidden "
                   >
-                    <LazyLoadImage
+                    <img
                       alt={`${product.image} ${index + 1}`}
-                      loading="lazy"
                       className="w-full h-full object-cover"
                       src={product.image}
                     />
