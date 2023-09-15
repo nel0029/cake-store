@@ -85,7 +85,7 @@ const Header: React.FC<HeaderProps> = ({
   const goTo = (element: HTMLElement | null) => {
     setIsMenuOpen(false);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView();
     }
   };
   return (
