@@ -122,6 +122,7 @@ const Header: React.FC<HeaderProps> = ({
       </div>
       <motion.div
         animate={{ translateX: isMenuOpen ? "-100%" : "100%" }}
+        transition={{ type: "tween", duration: 0.3, delay: 0.1 }}
         className="absolute bg-black bg-opacity-20 flex lg:hidden flex-col right-[-100%] top-0 h-screen w-screen justify-center items-end"
       >
         <div className="w-full flex flex-col text-white gap-y-4 text-[30px] bg-darkBrown flex-grow justify-center px-4">

@@ -46,6 +46,7 @@ const Services: React.FC<ServicesProps> = ({ headerHeight }) => {
             initial={{ scale: 0 }}
             whileInView={{ scale: 1 }}
             exit={{ scale: 1 }}
+            transition={{ duration: 0.3, delay: 0.1 * 1 * index }}
             className="w-[150px] lg:w-[300px] flex flex-col items-center justify-center gap-y-4 rounded-xl bg-white bg-opacity-20 backdrop-blur-[5px] aspect-square p-2"
           >
             <div className="flex justify-center items-center">
@@ -69,6 +70,7 @@ const Services: React.FC<ServicesProps> = ({ headerHeight }) => {
             initial={{ scale: 0 }}
             whileInView={{ scale: 1 }}
             exit={{ scale: 1 }}
+            transition={{ duration: 0.3, delay: 0.1 * 1 * index }}
             className="flex-1 w-full flex flex-row gap-x-2 rounded-xl bg-white bg-opacity-20 backdrop-blur-[5px] p-2"
           >
             <div className="flex justify-center items-center">
