@@ -35,7 +35,6 @@ const Gallery: React.FC<GalleryProps> = ({ headerHeight }) => {
         <div className="w-full h-full">
           <Carousel
             className="xl:hidden w-full h-full"
-            autoPlay={true}
             stopOnHover={true}
             infiniteLoop={true}
             showThumbs={false}
@@ -53,7 +52,6 @@ const Gallery: React.FC<GalleryProps> = ({ headerHeight }) => {
           </Carousel>
           <Carousel
             className="hidden xl:block w-full flex-1"
-            autoPlay={true}
             stopOnHover={true}
             infiniteLoop={true}
             showThumbs={false}
