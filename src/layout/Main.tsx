@@ -19,7 +19,10 @@ const Main: React.FC<MainProps> = () => {
 
   const goToServices = () => scrollTo(0, window.innerHeight);
   return (
-    <div className="w-ful h-screen flex flex-col overflow-hidden relative ">
+    <div
+      id="main"
+      className="w-full h-screen flex flex-col overflow-hidden relative "
+    >
       <div className="absolute top-0 w-full h-screen flex flex-row">
         <div className="relative w-full">
           <div className="z-20 absolute top-0 bottom-0 left-0 right-0  font-poppins p-4 bg-black bg-opacity-30">
@@ -62,7 +65,7 @@ const Main: React.FC<MainProps> = () => {
               loading="lazy"
               alt="hero"
               className="w-full object-cover"
-              src="https://res.cloudinary.com/dedny49m6/image/upload/v1691069265/cake-shop/david-holifield-kPxsqUGneXQ-unsplash_1_qdxfk9.jpg"
+              src="./gallery/main.webp"
             />
           </div>
           <div className="absolute z-30 left-0 right-0 bottom-0 flex flex-col items-center w-full ">

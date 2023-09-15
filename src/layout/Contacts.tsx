@@ -15,7 +15,10 @@ interface ContactsProps {
 
 const Contacts: React.FC<ContactsProps> = () => {
   return (
-    <div className=" border-transparent flex flex-col gap-y-8 py-4">
+    <div
+      id="contacts"
+      className=" border-transparent flex flex-col gap-y-8 py-4"
+    >
       <div className=" w-full flex flex-row items-center justify-center">
         <div className="text-[40px] text-white font-poppins font-bold uppercase">
           Contact Us

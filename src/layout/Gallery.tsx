@@ -19,7 +19,10 @@ const Gallery: React.FC<GalleryProps> = ({ headerHeight }) => {
   }
 
   return (
-    <div className="h-screen bg-primary border-transparent flex flex-col gap-y-8">
+    <div
+      id="gallery"
+      className="h-full bg-primary border-transparent flex flex-col gap-y-8"
+    >
       <div
         style={{ marginTop: headerHeight + 2 }}
         className="w-full flex flex-row items-center justify-center"
@@ -31,7 +34,7 @@ const Gallery: React.FC<GalleryProps> = ({ headerHeight }) => {
       <div className="w-full h-full flex-1 flex flex-col justify-center items-center">
         <div className="w-full h-full">
           <Carousel
-            className="xl:hidden h-full"
+            className="xl:hidden w-full h-full"
             autoPlay={true}
             stopOnHover={true}
             infiniteLoop={true}

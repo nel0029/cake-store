@@ -22,7 +22,10 @@ const Reviews: React.FC<ReviewsProps> = ({ headerHeight }) => {
     return stars;
   };
   return (
-    <div className="h-screen max-h-auto border-transparent bg-primary flex flex-col gap-y-8">
+    <div
+      id="reviews"
+      className="h-full border-transparent bg-primary flex flex-col gap-y-8 pb-2"
+    >
       <div
         style={{ marginTop: headerHeight + 2 }}
         className=" w-full flex flex-row items-center justify-center"
@@ -39,7 +42,10 @@ const Reviews: React.FC<ReviewsProps> = ({ headerHeight }) => {
               className="w-[95%] flex-1 flex flex-col items-center bg-white p-4 bg-opacity-80 rounded-lg gap-y-4"
             >
               <div className="w-[75px] aspect-square rounded-full overflow-hidden">
-                <img className="w-full object-cover" src={review.image} />
+                <img
+                  className="w-full aspect-square object-cover"
+                  src={review.image}
+                />
               </div>
               <div className="w-full flex flex-row items-center justify-around text-primary">
                 {renderStars(review.stars)}
@@ -56,7 +62,10 @@ const Reviews: React.FC<ReviewsProps> = ({ headerHeight }) => {
               className="w-full flex flex-row items-start gap-x-2 bg-white p-4 bg-opacity-80 rounded-lg"
             >
               <div className="w-[75px] aspect-square rounded-full overflow-hidden">
-                <img className="w-full object-cover" src={review.image} />
+                <img
+                  className="w-full aspect-square object-cover"
+                  src={review.image}
+                />
               </div>
               <div className="flex-1 flex flex-col">
                 <div className="font-bold font-poppins">{review.name}</div>

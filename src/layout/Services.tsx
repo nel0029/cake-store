@@ -30,7 +30,7 @@ const Services: React.FC<ServicesProps> = ({ headerHeight }) => {
     },
   ];
   return (
-    <div className="h-screen bg-darkBrown flex flex-col gap-y-2">
+    <div id="services" className="h-full bg-darkBrown flex flex-col gap-y-2">
       <div
         style={{ marginTop: headerHeight + 2 }}
         className=" w-full flex flex-row items-center justify-center"
@@ -62,7 +62,7 @@ const Services: React.FC<ServicesProps> = ({ headerHeight }) => {
           </motion.div>
         ))}
       </div>
-      <div className="flex-1 w-full p-4 flex xl:hidden flex-col gap-4 ">
+      <div className="flex-1 w-full h-full p-4 flex xl:hidden flex-col gap-4 ">
         {services.map((service: any, index: number) => (
           <motion.div
             key={index}
